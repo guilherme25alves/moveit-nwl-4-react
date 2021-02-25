@@ -7,10 +7,12 @@ import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 function MyApp({ Component, pageProps }) {
   return (    
-      <ChallengesProvider>
-        <Component {...pageProps} />    
+      <ChallengesProvider>        
+          <Component {...pageProps} />        
       </ChallengesProvider>
   )
 }
 
 export default MyApp
+
+// CountdownProvider deve ficar abaixo do ChallengeProvider porque o CountProv depende do ChallProv 
