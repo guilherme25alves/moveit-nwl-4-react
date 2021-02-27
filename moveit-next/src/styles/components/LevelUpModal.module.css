@@ -30,7 +30,7 @@
      background-size: contain;
 }
 
-.container strong.strongModal {
+.container strong {
      font-size: 2.25rem;
      color: var(--title);
      margin: 0;
